@@ -33,7 +33,6 @@ let dfs = (start, grid) => {
         }
         if (queue.length === 0 && cache.length > 0) {
             queue.push(...cache)
-            cache = []
+            cache = [];
         }
-    }
-}
+    } 
